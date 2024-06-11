@@ -1,0 +1,99 @@
+.header-container {
+    height: 100vh;
+    background-color: var(--background-color);
+    background-image: url("./images/banner/banner-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 36px;    
+}
+
+#right-menu-icon-id {
+    width: 175px;
+    text-align: right;
+}
+
+.banner-title h1{
+    font-size: 102px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    margin: 40px 0px;
+}
+
+.banner-desc {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    margin: 40px 0px;
+}
+
+.banner-profile-container {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--font-primary-color);
+    border-bottom: 1px solid var(--font-primary-color);
+}
+
+.banner-profile-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-size: 40px;
+}
+
+.work-icon-container {
+    display: flex;
+    gap: 14px;
+    padding: 40px 0px;
+}
+
+.check-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.banner-image-container {
+    background-color: var(--font-primary-color);
+    width: fit-content;
+}
+
+#banner-image {
+    height: 300px;
+}
+
+.complete-project-card h1 {
+    font-size: 152px;
+    text-transform: uppercase;
+}
+
+.complete-project-card p {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+
+.complete-project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+@media only screen and (min-width: 200px) and (max-height: 576px) {
+    .nav {
+        font-size: 16px;
+    }
+    .complete-project-container {
+        flex-direction: row;
+    }
+}

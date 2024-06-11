@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+:root {
+    --color-primary: #fff;
+    --color-secondary: #FD6F00;
+    --color-background: #1e1e1e;
+    --color-white-50: rgba(255, 255, 255, 0.5);
+    --color-dark: #000;
+    --color-brown: #34261b;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Poppins; */
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    color: var(--color-primary);
+}
+
+a {
+    text-decoration: none;
+}
+
+.zoom-out:hover {
+    transform: scale(.90);
+}
+
+body {
+    background-color: var(--color-background);
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    /* background-color: var(--color-background); */
+}
+
+.header-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.nav {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+
+    font-size: x-large;
+    padding: 20px;
+    margin-top: 70px;
+    margin-bottom: 150px;
+    gap: 0px;
+    opacity: 0px;
+    /* border: 1px solid white; */
+}
+
+.nav .logo {
+    font-size: xx-large;
+}
+
+.nav .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+    /* border: 1px solid var(--color-secondary); */
+}
+
+.nav .logo {
+    /* flex:20%; */
+    color: var(--color-secondary);
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    /* border: 1px solid var(--color-secondary); */
+}
+
+.nav .nav-btn {
+    background-color: var(--color-secondary);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.nav .nav-btn:hover{
+    transform: scale(.90);
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav a {
+    color: var(--color-primary);
+    width: 126px;
+    height: 45px;
+    padding: 10px 14px 10px 14px;
+    gap: 10px;
+    opacity: 0px;
+}
+
+.nav .links .nav-text:hover {
+    transform: scale(.90);
+    border-bottom: 3px solid var(--color-secondary);
+}
+
+.banner-title {
+    font-size: xx-large;
+}
+
+.banner-title .banner-desc,
+.banner-title .btn {
+    font-size: x-large;
+}
+
+.banner-title span {
+    color: var(--color-secondary);
+}
+
+
+.banner-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.banner-container .banner-title,
+.banner-container .banner-desc {
+    flex: 1;
+    padding: 10px;
+}
+
+.banner-container .banner-img img {
+    border-radius: 50%;
+    width: 500px;
+    height: auto;
+    border: 10px solid var(--color-secondary)
+}
+
+.banner-title .btn {
+    background-color: var(--color-background);
+    border: 3px solid var(--color-primary);
+    border-radius: 30px;
+    padding: 5px;
+    margin-top: 10px;
+
+    display: inline-block;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.banner-title .btn div {
+    padding: 10px;
+    display: inline-block;
+}
+
+.banner-title .btn .portfolio-btn {
+    border-radius: 30px;
+    background: var(--color-secondary);
+}
+
+.social-icons {
+    margin: 20px;
+}
+
+.socail-icons a {
+    display: inline-block;
+}
+
+.works {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: var(--color-primary);
+    background: #000000;
+    padding: 15px;
+    transform: rotate(-5deg);
+}
+.works div{
+    flex: auto;
+    font-size: x-large;
+}
+
+
+.lead {
+    font-size: larger;
+}
+.italic {
+    font-style: italic;
+}
+.text-xxlarge {
+    font-size: xx-large;
+}
+.text-xlarge {
+    font-size: x-large;
+}
+.text-large {
+    font-size: large;
+}
+.text-align-right {
+    text-align: right;
+}
+.text-align-center {
+    text-align: center;
+}
+.text-white50 {
+    color: rgb(255, 255, 255, 0.5);
+}
+.text-w700 {
+    font-weight: 700;
+}
+.text-secondary {
+    color: var(--color-secondary);
+}
+
+#experience {
+    background-image: url("images/BG.png");
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+.p-20 {
+    padding: 20px;
+}
+.m-10 {
+    margin: 10px;
+}
+.m-20 {
+    margin: 20px;
+}
+.my-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.my-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.exp {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bg-dark {
+    background-color: var(--color-dark);
+}
+
+.bg-secondary {
+    background: var(--color-secondary);
+}
+.bg-brown {
+    background: #34261b;
+}
+/* -------------Flex 2 column---------------- */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-item-left {
+    padding: 10px;
+    flex: 50%;
+}
+.flex-item-right {
+    padding: 10px;
+    flex: 50%;
+}
+
+.al {
+    padding: 10px;
+    flex: 70%; 
+}
+.ar {
+    padding: 10px;
+    flex: 30%;
+}
+
+.al-40 {
+    padding: 10px;
+    flex: 40%; 
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+.al-40 img {
+    width: 100%;
+}
+.ar-60 {
+    padding: 10px;
+    flex: 60%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+/* -------------form design-------------- */
+.login-box .user-box input,
+.login-box .user-box textarea {
+    padding: 10px 0;
+    font-size: 16px;
+    color: var(--color-primary);
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid var(--color-white-50);
+    outline: none;
+    background: transparent;
+}
+.login-box .user-box label {
+    padding: 10px 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: var(--color-primary);
+    font-weight: 200;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.user-box:hover label,
+.user-box:focus label,
+.user-box:valid label {
+    padding-bottom: 0px;
+    color: var(--color-secondary);
+    font-size: 14px;
+}
+
+/* ------------input file design------------------- */
+
+/* hide input */
+/* why not 0px ? it may consider the tag doesn't exist in some browser. */
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+/* style label */
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 500;
+    color: white;
+    display: inline-block;
+}
+
+/* .inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: var(--color-secondary);
+} */
+
+/* Accessibility */
+.inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}
+
+.submit {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    background: var(--color-secondary);
+}
+.submit:hover {
+    cursor: pointer;
+}
+  
+@media only screen and (max-width: 768px) {
+    .flex-item-right, .flex-item-left {
+        flex: 100%;
+    }
+    .flex-container l,
+    .flex-container r {
+        flex: 100%;
+    }
+
+    .nav .links {
+        flex-direction: column;
+        justify-content: flex-end;
+        border: 1px solid var(--color-primary);
+        padding: 8px;
+        border-radius: 10px;
+    }
+
+    .nav .links div{
+        display: inline-block;
+    }
+
+    .banner-container {
+        flex-direction: column;
+    }
+
+}

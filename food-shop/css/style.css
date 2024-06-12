@@ -1,0 +1,338 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color-dark: #000;
+    --color-dark-50: rgba(0, 0, 0, .5);
+    --color-light: #ffffff;
+
+    --color-btn-1: #f48e28;
+    --color-btn-2: #f19c47;
+    --color-btn-3:#f5ddc4;
+    --color-footer: #fafaff;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: Poppins; */
+    /* font-family: "Rubik", sans-serif; */
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+    
+    color: var(--color-dark);
+    background: transparent;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.zoom-out:hover {
+    transform: scale(.90);
+}
+
+body {
+    background-color: var(--color-light);
+}
+
+/* ------background------ */
+.bg-dark {
+    background: var(--color-dark);
+}
+.bg-light {
+    background: var(--color-light);
+}
+.btn {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px;
+    color: var(--color-light);
+    /* background: var(--color-btn-1); */
+    border: 4px solid var(--color-footer);
+}
+.pointer:hover {
+    cursor: pointer;
+    transform: scale(.95);
+}
+
+.btn-1 {
+    background: var(--color-btn-1);
+}
+.btn-2 {
+    background: var(--color-btn-2);
+}
+.btn-3 {
+    color: var(--color-btn-1);
+    background: var(--color-btn-3)
+}
+
+/* --------------------flex column-------------------------  */
+.container {
+    width: 90%;
+    margin: auto;
+}
+.d-inline {
+    display: inline;
+}
+.d-inline-block {
+    display: inline-block;
+}
+.d-flex {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;/*on Vertical axis space from top  & bottom equal*/
+    flex-wrap: wrap;
+}
+
+.justify-content-spacebetween {
+    justify-content: space-between; /*align in Horizontal axis*/
+}
+.justify-content-center {
+    justify-content: center;
+}
+
+.col-20 {
+    flex: 20%;
+}
+.col-40 {
+    flex: 40%;
+}
+.col-4 {
+    flex: 33%;
+}
+.col-6 {
+    flex: 50%;
+}
+.col-8 {
+    flex: 67%;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.height-100 {
+    height: 100%;
+}
+.height-95 {
+    margin: auto;
+    height: 95%;
+}
+.border-right {
+    border-right: 1px solid #B6B6B6;
+}
+
+/* -------------Padding and Margin------------- */
+.p-auto {
+    padding: auto;
+}
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.px-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.py-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.px-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.p-10 {
+    padding: 10px;
+}
+.p-20 {
+    padding: 20px;
+}
+
+.my-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.mx-10 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.my-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mx-20 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.ms-2 {
+    margin-left: 2px;
+}
+.ms-10 {
+    margin-left: 2px;
+}
+.me-2 {
+    margin-right: 2px;
+}
+.mt-auto {
+    margin-top: auto;
+}
+
+.mt-2 {
+    margin-top: 2px;
+}
+.mb-2 {
+    margin-bottom: 2px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.m-auto {
+    margin: auto;
+}
+.m-10 {
+    margin: 10px;
+}
+.m-20 {
+    margin: 20px;
+}
+
+
+/* --------------------------------------- */
+.text-center {
+    text-align: center;
+}
+.text-align-right {
+    text-align: right;
+}
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.text-xxlarge {
+    font-size: xx-large;
+}
+.text-xlarge {
+    font-size: x-large;
+}
+.text-larger {
+    font-size: larger;
+}
+.text-large {
+    font-size: large;
+}
+.text-capitalize {
+    text-transform: capitalize;
+}
+.text-secondary {
+    color: var(--color-btn-1);
+}
+.text-red {
+    color: red;
+}
+.text-dark {
+    color: var(--color-dark);
+}
+.text-light {
+    color: var(--color-light);
+}
+.text-orange {
+    color: var(--color-btn-1);
+}
+.w-700 {
+    font-weight: 700;
+}
+.w-500 {
+    font-weight: 500;
+}
+
+
+.bike-delivery-btn {
+    padding: 0px;
+    margin: 0px;
+    border-radius: 35px;
+    display: inline-block;
+}
+
+.bike-delivery-btn:hover {
+    cursor: pointer;
+}
+
+
+/* ---------------Card--------------- */
+.card {
+    border-radius: 30px;
+    border: 4px solid var(--color-footer);
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    height: 95%;
+    width: 100%;
+    margin: 5px;
+}
+
+.card-product {
+    border-radius: 30px;
+    border: 4px solid var(--color-footer);
+    overflow: hidden;
+    z-index: 1;
+}
+.card-product .p-flex {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+.card-product .p-flex .flex-2 {
+    flex: 50%;
+}
+
+.d-none {
+    display: none;
+}
+/* --------------Design Navbar------------ */
+input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+form button:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .d-flex .col-20,
+    .d-flex .col-40,
+    .d-flex .col-4,
+    .d-flex .col-6,
+    .d-flex .col-8 {
+        flex: 100%;
+    }
+
+    .col-4 .border-right {
+        border: none;
+    }
+}
+

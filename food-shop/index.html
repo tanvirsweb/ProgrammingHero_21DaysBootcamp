@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Online Food Shop</title>
 </head>
 <body>
     <header class="container">
@@ -36,7 +36,7 @@
             </div>
         </section>
 
-        <section class="d-flex my-20">
+        <section class="d-flex my-20" id="aboutus">
             <div class="col-40">
                 <div class="bike-delivery-btn my-20 zoom-out" onclick="bikeDelivery()">
                     <img src="images/bike-delivery.png" alt="">
@@ -174,7 +174,7 @@
         <div class="d-flex">
             
             <div class="col-4 p-10">
-                <div class="card-product pointer height-100 p-20">
+                <div class="card-product pointer height-100">
                     <div>
                         <img src="images/product/gyro-sandwich1-1650490757 1.png" alt="" width="100%">
                     </div>
@@ -633,6 +633,80 @@
         </div>
 
     </section>
+
+    <br><br><br>
+    <section class="bg-footer my-20 text-footer" id="footer">
+        <br><br><br>
+        <div class="container">
+            <div class="d-flex ">
+                
+                <div class="col-3">
+                    <div>
+                        <img src="images/food-icon.png" alt="" width="181px" height="181px">
+                    </div>
+                    <div class="my-20">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo libero viverra dapibus odio sit malesuada in quis. Arcu tristique elementum viverra integer id.
+                    </div>
+                    <div class="my-20">
+                        <a href="#" class="me-2">
+                            <img src="images/footer/Facebook.png" alt="" width="42px" height="42px">
+                        </a>
+                        <a href="#" class="me-2">
+                            <img src="images/footer/Twitter.png" alt="" width="42px" height="42px">
+                        </a>
+                        <a href="#" class="me-2">
+                            <img src="images/footer/Instagram.png" alt="" width="42px" height="42px">
+                        </a>
+                        <a href="#" class="me-2">
+                            <img src="images/footer/Linkind.png" alt="" width="42px" height="42px">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="text-xlarge text-dark w-500 my-20">
+                        Opening Restaurant
+                    </div>
+                    <div class="my-20">
+                        <div class="my-10">Sat-Wet: 09:00am-10:00PM</div>
+                        <div class="my-10">Thursdayt: 09:00am-11:00PM</div>
+                        <div class="my-10">Friday: 09:00am-8:00PM</div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="text-xlarge text-dark w-500 my-20">
+                        User Link
+                    </div>
+                    <div class="my-20">
+                        <div class="my-10"><a href="#aboutus">About Us</a></div>
+                        <div class="my-10"><a href="#contactus">Contact Us</a></div>
+                        <div class="my-10"><a href="#orderdelivery">Order Delivery</a></div>
+                        <div class="my-10"><a href="#payment">Payment & Tex</a></div>
+                        <div class="my-10"><a href="#serviceterms">Terms of Services</a></div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="text-xlarge text-dark w-500 my-20">
+                        Contact Us
+                    </div>
+                    <div class="my-20">
+                        <div class="my-10">Mohammadpur, Dhaka</div>
+                        <div class="my-10"><a href="tel:+88 017 0000 0000">+88 017 0000 0000</a></div>
+                        <div class="my-10"><a href="tel:+88 018 0000 0000">+88 018 0000 0000</a></div>
+                        <div class="my-20 btn border-1">
+                            <input type="email" placeholder="Enter Your Email...">
+                            <button class="pointer" onclick="subscribe">
+                                <img src="images/footer/arrow.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+    </section>
     
 </body>
 
@@ -643,11 +717,11 @@
     }
 
     const orderNow = ()=> {
-
+        console.log('Food Ordered!!')
     }
 
     const orderProcess = ()=> {
-
+        console.log('Food order is being processed!!')
     }
 
     const eventProduct = ()=> {
@@ -665,7 +739,7 @@
     }
 
     const subscribe = ()=> {
-
+        console.log('Your email is being subscribed!!');
     }
 </script>
 </html>

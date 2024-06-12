@@ -13,6 +13,7 @@
     --color-btn-2: #f19c47;
     --color-btn-3:#f5ddc4;
     --color-footer: #fafaff;
+    --color-text-footer: #B6B6B6;
 }
 
 
@@ -27,13 +28,18 @@
 
     font-style: normal;
     
-    color: var(--color-dark);
+    /* color: var(--color-dark); */
     background: transparent;
     border: none;
 }
 
 a {
     text-decoration: none;
+    color: var(--color-dark);
+}
+
+#footer a {
+    color: var(--color-text-footer);
 }
 
 .zoom-out:hover {
@@ -50,6 +56,9 @@ body {
 }
 .bg-light {
     background: var(--color-light);
+}
+.bg-footer {
+    background: var(--color-footer);
 }
 .btn {
     display: inline-block;
@@ -106,6 +115,9 @@ body {
 .col-40 {
     flex: 40%;
 }
+.col-3 {
+    flex: 25%;
+}
 .col-4 {
     flex: 33%;
 }
@@ -126,6 +138,9 @@ body {
 .height-95 {
     margin: auto;
     height: 95%;
+}
+.border-1 {
+    border: 1px solid var(--color-dark-50);
 }
 .border-right {
     border-right: 1px solid #B6B6B6;
@@ -255,6 +270,9 @@ body {
 .text-orange {
     color: var(--color-btn-1);
 }
+.text-footer {
+    color: #B6B6B6;
+}
 .w-700 {
     font-weight: 700;
 }
@@ -325,6 +343,7 @@ form button:hover {
 
     .d-flex .col-20,
     .d-flex .col-40,
+    .d-flex .col-3,
     .d-flex .col-4,
     .d-flex .col-6,
     .d-flex .col-8 {
